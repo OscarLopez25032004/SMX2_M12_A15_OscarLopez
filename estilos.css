@@ -1,0 +1,37 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.estilos {  
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    height: 350px;
+}
+.column-1 {
+    width: 100%;
+    background-color: rgb(238, 195, 76);
+}
+.column-2 {
+    width: 50%;
+    background-color: rgb(76, 214, 238);
+}
+.column-4 {
+    width: 25%;
+    background-color: rgb(76, 238, 76);
+}
+.p1 {
+    
+}
+@media screen and (max-width: 600px) {
+    .column-2 {
+        width: 600px;
+    }
+}
