@@ -1,79 +1,95 @@
+/* indica el estilo css del body */
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* indica el estilo css del row */
 .row {
     display: flex;
 }
+/* indica el estilo css de la primera seccion (utilizada en la segunda fila) */
 .section-1 {
     display: flex;
     background-color: #F5EEF5;
 }
+/* indica el estilo css de la segunda seccion (utilizada en la tercera fila) */
 .section-2 {
     display: flex;
     background-color: #FAF5F3;
 }
+/* indica el estilo css de la tercera sección (utilizada en la cuarta fila) */
 .section-3 {
     display: flex;
     background-color: #F2F9F8;
 }
+/* indica el estilo css de la cuarta seccion (utilizada en la quinta y sexta fila) */
 .section-4 {
     display: flex;
     background-color: #000000;
 }
+/* indica el estilo css para establecer el alto que utiliza la segunda, tercera y cuarta fila */
 .estilos {  
     height: 350px;
-}
+}/* indica el estilo css para establecer el alto que utiliza la quinta fila */
 .estilos2 {
     height: 150px;
 }
+/* indica el estilo css para establecer el alto que utiliza la sexta fila */
 .estilos3 {
     height: 250px;
 }
-.column-1 {
-    width: 100%;
-}
+/* indica el estilo css para establecer el ancho de cada div de algunas filas */
 .column-2 {
     width: 50%;
 }
+/* indica el estilo css para establecer el ancho de cada div de algunas filas */
 .column-4 {
     width: 25%;
 }
+/* indica el estilo css que utilizan la mayoria de las filas para que el contenido de la misma se alinee a la izquierda */
 .marginleft {
     margin-left: 50px;
 }
+/* indica el estilo css del primer parrafo */
 .p1 {
     margin-top: 50px;
     font-size: 18px;
     font-weight: bold;
 }
+/* indica el estilo css del segundo parrafo */
 .p2 {
     margin-top: 60px;
     font-size: 60px;
     font-weight: bold;
     color: rgb(8, 102, 119);
 }
+/* indica el estilo css del tercer parrafo */
 .p3 {
     margin-top: 50px;
     font-size: 26px;
 }
+/* indica el estilo css del cuarto parrafo */
 .p4 {
     font-size: 37px;
     color: gray;
 }
+/* indica el estilo css del quinto parrafo */
 .p5 {
     font-weight: bold;
     color: white;
     margin-top: 95px;
 }
+/* indica el estilo css del sexto parrafo */
 .p6 {
     color: white;
     font-size: 10px;
 }
+/* indica el estilo css para que la letra esté en negrita y tenga un margen superior */
 .bold {
     margin-top: 90px;
     font-weight: bold;
 }
+/* indica el estilo css de las imagenes */
 .img {
     height: 275px;
     width: 275px;
@@ -82,6 +98,7 @@ body {
     margin-top: 40px;
     border-radius: 10px;
 }
+/* indican las media queries */
 @media screen and (max-width: 768px) {
     .row {
         flex-direction: row;
