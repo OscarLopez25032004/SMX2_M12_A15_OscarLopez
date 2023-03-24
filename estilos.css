@@ -28,9 +28,10 @@ body {
     background-color: #000000;
 }
 /* indica el estilo css para establecer el alto que utiliza la segunda, tercera y cuarta fila */
-.estilos {  
-    height: 350px;
-}/* indica el estilo css para establecer el alto que utiliza la quinta fila */
+.estilos1 {  
+    height: 450px;
+}
+/* indica el estilo css para establecer el alto que utiliza la quinta fila */
 .estilos2 {
     height: 150px;
 }
@@ -53,24 +54,24 @@ body {
 /* indica el estilo css del primer parrafo */
 .p1 {
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 /* indica el estilo css del segundo parrafo */
 .p2 {
     margin-top: 60px;
-    font-size: 60px;
+    font-size: 90px;
     font-weight: bold;
     color: rgb(8, 102, 119);
 }
 /* indica el estilo css del tercer parrafo */
 .p3 {
     margin-top: 50px;
-    font-size: 26px;
+    font-size: 32px;
 }
 /* indica el estilo css del cuarto parrafo */
 .p4 {
-    font-size: 37px;
+    font-size: 50px;
     color: gray;
 }
 /* indica el estilo css del quinto parrafo */
@@ -84,6 +85,10 @@ body {
     color: white;
     font-size: 10px;
 }
+/* indica el estilo css del septimo parrafo */
+.p7 {
+    font-size: 20px;
+}
 /* indica el estilo css para que la letra esté en negrita y tenga un margen superior */
 .bold {
     margin-top: 90px;
@@ -91,8 +96,8 @@ body {
 }
 /* indica el estilo css de las imagenes */
 .img {
-    height: 275px;
-    width: 275px;
+    height: 350px;
+    width: 350px;
     display: block;
     margin: auto;
     margin-top: 40px;
@@ -100,32 +105,40 @@ body {
 }
 /* indican las media queries */
 @media screen and (max-width: 768px) {
+    /* indica la media query de la clase row */
     .row {
         flex-direction: row;
     }
+    /* indica la media query de la primera seccion */
     .section-1 {
         display: flex;
         flex-wrap: wrap;
     }
+    /* indica la media query de la segunda seccion */
     .section-2 {
         display: flex;
         flex-wrap: wrap;
     }
+    /* indica la media query de la tercera seccion */
     .section-3 {
         display: flex;
         flex-wrap: wrap;
     }
+    /* indica la media query de la cuarta seccion */
     .section-4 {
         display: flex;
         flex-wrap: wrap;
     }
+    /* indica la media query de las filas 2, 3 y 4 (para que pasen a media 100% y no el 50%) */
     .column-2 {
         width: 100%;
     }
+    /* indica la media query de la fila 5 (para que pasen a media 50% y no el 25%) */
     .column-4 {
         width: 50%;
     }
-    .img {
-    
+    /* indica la media query del parrafo 2 (para al aplicar la media query se vea mas pequeño y no ocupe mas de su seccion) */
+    .p2 {
+        font-size: 70px;
     }
 }
